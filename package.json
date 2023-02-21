@@ -32,7 +32,7 @@
         "build:cjs-esi": "tsc --project tsconfig.cjs-esi.json",
         "postbuild:cjs": "shx mv ./dist/cjs/index.js ./dist/cjs/index.cjs && shx mv ./dist/cjs/index.js.map ./dist/cjs/index.cjs.map",
         "postbuild:cjs-esi": "shx mv ./dist/cjs-esi/index.js ./dist/cjs-esi/index.cjs && shx mv ./dist/cjs-esi/index.js.map ./dist/cjs-esi/index.cjs.map",
-        "prepublish": "npm run build"
+        "prepack": "npm run build"
     },
     "repository": {
         "type": "git",
