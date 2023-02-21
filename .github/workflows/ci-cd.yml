@@ -43,7 +43,7 @@ jobs:
                 run: npm ci
 
             -   name: Test
-                run: npm run test --coverage
+                run: npm run coverage
 
             -   name: Upload coverage data
                 uses: actions/upload-artifact@v3

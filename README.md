@@ -20,7 +20,7 @@ You should NOT use strfnr if:
 
 ## Installation
 This package works with bost CommonJS and ESM projects. No need to worry about pesky
-module errors!
+module errors! But watch out: this package has no default exports.
 
 ```bash
 npm install strfnr
