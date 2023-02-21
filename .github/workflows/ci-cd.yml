@@ -34,8 +34,8 @@ jobs:
 
         permissions:
             contents: read
-            checks: read|write
-            statuses: read|write
+            checks: write
+            statuses: write
 
         env:
             NODE_ENV: development
