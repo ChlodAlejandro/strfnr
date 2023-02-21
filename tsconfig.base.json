@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "sourceMap": true,
+        "moduleResolution": "Node",
+        "declaration": true
+    },
+    "files": [ "index.ts" ],
+    "exclude": [ "./node_modules" ]
+}

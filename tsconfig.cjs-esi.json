@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "module": "CommonJS",
+        "outDir": "./dist/cjs-esi",
+        "esModuleInterop": true,
+        "declarationDir": "./dist/types/cjs-esi"
+    }
+}
