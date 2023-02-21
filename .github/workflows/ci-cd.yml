@@ -32,6 +32,11 @@ jobs:
         runs-on: ubuntu-latest
         needs: build
 
+        permissions:
+            contents: read
+            checks: read|write
+            statuses: read|write
+
         env:
             NODE_ENV: development
 
