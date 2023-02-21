@@ -1,4 +1,6 @@
 # strfnr
+[![npm version](https://img.shields.io/npm/v/strfnr.svg?style=flat-square)](https://www.npmjs.org/package/strfnr)
+[![npm downloads](https://img.shields.io/npm/dm/strfnr.svg?style=flat-square)](http://npm-stat.com/charts.html?package=strfnr)
 
 Painless string find and replace. Find search patterns in a string and:
 * replace it
