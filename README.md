@@ -12,7 +12,7 @@ JavaScript developers have a tendency to reinvent the wheel. strfnr should only 
 when you want to find and replace:
 
 * using **multiple** criteria
-* **one pattern**, or fall back to **another pattern** if the first does nothing
+* **one pattern**, or fall back to **another pattern** if the first finds nothing
 
 You should NOT use strfnr if:
 * you want to replace only one string (use [`String.prototype.replace()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) instead)
