@@ -86,6 +86,22 @@ following properties:
 * `end: number` – The character offset of the end of the match
 * `filter: string | RegExp | RegExpLike` – The search pattern that matched that offset
 
+```js
+import { stringMatches } from 'strfnr';
+
+const str = "The sixth sick sheik's sixth sick sheep";
+const matches = stringMatches(str, 'sixth');
+
+console.log(matches.offset);
+// [
+//    { start: 4, end: 9, filter: 'sixth' },
+//    { start: 23, end: 28, filter: 'sixth' }
+// ]
+```
+
+Any modification done with the functions defined above will accordingly update the
+offsets.
+
 ### RegExpLike
 RegExpLike refers to any object with a `source` and, if applicable, `flags` property.
 This is useful when you want to use a filter that comes from a JSON object or other
